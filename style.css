@@ -156,7 +156,7 @@
 .content-column .container-fluid input::placeholder {
     color: #ffffff;
     /* placeholder text */
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .content-column .container-fluid input {
@@ -286,4 +286,21 @@
     border-color: transparent;
     text-align: start;
     line-break: strict;
+}
+
+.relatedblogs {
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    color: #290A2f;
+}
+
+.row {
+    justify-content: center;
+}
+
+.cardrow .card {
+    margin: 10px;
+    height: 20rem;
 }
