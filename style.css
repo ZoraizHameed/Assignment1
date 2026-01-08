@@ -121,6 +121,123 @@
     font-size: 18px;
 }
 
+.content-column p {
+    color: #0a0d31;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: start;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.content-column .container-fluid {
+    border: transparent;
+    border: solid 1px;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: #290A2f;
+    padding: 40px 24px;
+}
+
+.content-column .container-fluid h3 {
+    font-size: 32px;
+    line-break: strict;
+
+}
+
+.content-column .container-fluid p {
+    color: #ffffff;
+    text-align: center;
+    line-break: strict;
+}
+
+
+.content-column .container-fluid input::placeholder {
+    color: #ffffff;
+    /* placeholder text */
+    opacity: 1;
+}
+
+.content-column .container-fluid input {
+    color: #ffffff;
+    /* placeholder text */
+    opacity: 1;
+}
+
+#name {
+    background-color: #290A2f;
+    padding: 0 20px;
+    min-height: 50px;
+    max-height: 60px;
+    width: 48%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 0.1px;
+    border-color: #3F444B;
+    margin-right: 5px;
+}
+
+.content-column .container-fluid input[type="number"] {
+    background-color: #290A2f;
+    padding: 0 20px;
+    min-height: 50px;
+    max-height: 60px;
+    width: 48%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 0.1px;
+    border-color: #3F444B;
+    margin-right: 5px;
+
+}
+
+.content-column .container-fluid input[type="email"] {
+    background-color: #290A2f;
+    padding: 20px 20px 20px 20px;
+    min-height: 50px;
+    max-height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 0.1px;
+    border-color: #3F444B;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+
+#reply {
+    background-color: #290A2f;
+    padding: 20px 20px 20px 20px;
+    min-height: 50px;
+    max-height: 60px;
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 0.1px;
+    border-color: #3F444B;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    background-color: #A65EB8;
+    color: #ffffff;
+    padding: 0 20px;
+    min-height: 50px;
+    max-height: 60px;
+    width: 50%;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: solid 0.1px;
+    border-color: #3F444B;
+    margin: 10px;
+}
+
+
+
 .side-column {
     padding: 30px;
     max-width: 300px;
